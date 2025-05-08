@@ -127,7 +127,7 @@ def get_reminder_time(update: Update, context: CallbackContext):
 
 def main():
     init_db()
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)  # Замените на свой токен
+    updater = Updater(7123542145:AAEGrZPSzbYgVhJihw4dzvsFw5iq6oWTrdo, use_context=True)  # Замените на свой токен
     dp = updater.dispatcher
 
     # Обработчики команд
